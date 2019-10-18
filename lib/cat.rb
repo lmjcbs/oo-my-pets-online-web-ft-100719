@@ -7,10 +7,11 @@ class Cat
   @@all = []
 
   def initialize(name, owner)
+    @@all << self
     @name = name
     @owner = owner
     @mood = "nervous"
-    @@all << self
+
   end
 
 end
