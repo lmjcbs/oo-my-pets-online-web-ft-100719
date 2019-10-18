@@ -18,4 +18,7 @@ class Owner
     @@all
   end
 
+  def count
+    self.all.size
+
 end
