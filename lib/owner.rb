@@ -26,4 +26,7 @@ class Owner
     self.all.clear
   end
 
+  def cats
+    Cat.all.select { |cat| cat.owner == self}
+
 end
