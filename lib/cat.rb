@@ -4,7 +4,7 @@ class Cat
   attr_writer
   attr_reader :name
 
-  @@all
+  @@all = []
 
   def initialize(name, owner)
     @name = name
