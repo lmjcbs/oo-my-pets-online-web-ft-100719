@@ -4,6 +4,8 @@ class Cat
   attr_writer
   attr_reader :name
 
+  @all
+
   def initialize(name, owner)
     @name = name
     @owner = owner
